@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC, useState, FormEvent } from "react";import React from "react";
 
 type Props = {
   title: string;
@@ -10,4 +10,4 @@ const MovieList: React.FC<Props> = ({ children, title }) => (
   </div>
 );
   
-  export default MovieList;
+export default MovieList;
